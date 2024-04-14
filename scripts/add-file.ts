@@ -31,4 +31,3 @@ fs.writeFile(filePath, fileContent, (err) => {
     console.log('ファイルを書き込みました:', filePath);
   }
 });
-console.log(filePath)
