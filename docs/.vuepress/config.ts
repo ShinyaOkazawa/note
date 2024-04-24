@@ -9,14 +9,16 @@ export default defineUserConfig({
 
   head: [
     ['meta', { name: 'robots', content: 'noindex'}],
-    ['link', { rel: 'icon', href: '/images/me.jpg'}]
+    ['link', { rel: 'icon', href: '/note/images/me.png'}],
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/note/images/me.png'}],
+    ['meta', { name: 'apple-mobile-web-app-title', content: '俺メモ'}]
   ],
 
   title: '俺のメモ帳',
   description: 'メモ帳',
 
   theme: defaultTheme({
-    logo: '/images/me.jpg',
+    logo: '/images/me.png',
     home: '/',
     sidebar: false,
     navbar: [
