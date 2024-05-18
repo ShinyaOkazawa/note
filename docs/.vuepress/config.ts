@@ -11,11 +11,11 @@ export default defineUserConfig({
     ['meta', { name: 'robots', content: 'noindex'}],
     ['link', { rel: 'icon', href: '/note/images/me.png'}],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/note/images/me.png'}],
-    ['meta', { name: 'apple-mobile-web-app-title', content: '俺メモ'}]
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'ザワメモ'}]
   ],
 
-  title: '俺のメモ帳',
-  description: 'メモ帳',
+  title: 'ザワのメモ帳',
+  description: '自分のメモ帳。日々気づいたことを一口メモの大きさで綴っていく。',
 
   theme: defaultTheme({
     logo: '/images/me.png',
