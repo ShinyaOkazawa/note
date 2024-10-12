@@ -1,9 +1,7 @@
-# VuePress default temp directory
-docs/.vuepress/.temp
-# VuePress default cache directory
-docs/.vuepress/.cache
-# VuePress default build output directory
-docs/.vuepress/dist
+# docs:dev コマンドで生成されるディレクトリ
+docs/.vitepress/cache
+# docs:build コマンドで生成されるディレクトリ
+docs/.vitepress/dist
 
 node_modules
 todo.md
