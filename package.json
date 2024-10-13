@@ -5,20 +5,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs",
-    "docs:update-package": "pnpm dlx vp-update",
-    "docs:add-file": "tsx scripts/add-file"
+    "docs:add-file": "tsx scripts/add-file",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "@types/node": "^20.12.7",
-    "@vuepress/bundler-vite": "^2.0.0-rc.7",
-    "@vuepress/plugin-blog": "^2.0.0-rc.11",
-    "@vuepress/theme-default": "^2.0.0-rc.11",
     "tsx": "^4.7.2",
-    "typescript": "^5.4.5",
-    "vue": "^3.4.0",
-    "vuepress": "^2.0.0-rc.7"
+    "vitepress": "^1.4.0"
   }
 }

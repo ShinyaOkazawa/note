@@ -1,5 +1,4 @@
 ---
-home: true
-title: Home
-layout: Timeline
+layout: home
 ---
+
