@@ -15,8 +15,7 @@ const fileName = `${year}${month}${day}${hours}${minutes}.md`;
 
 const fileContent = `---
 date: ${year}-${month}-${day}
-category:
-tag:
+title: ""
 ---`;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
