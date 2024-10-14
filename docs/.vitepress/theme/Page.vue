@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <Content/>
+  <Content class="vp-doc"/>
 </template>
 
 <style scoped>
