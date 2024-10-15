@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { withBase, useData } from 'vitepress'
 </script>
 
 <template>
