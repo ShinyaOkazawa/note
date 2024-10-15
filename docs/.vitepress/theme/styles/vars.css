@@ -255,3 +255,10 @@
   --vp-code-tab-active-text-color: var(--vp-c-text-1);
   --vp-code-tab-active-bar-color: var(--vp-c-brand-1);
 }
+
+/** --------------------------------------------------------------------------
+  * My variables
+  * -------------------------------------------------------------------------- */
+:root {
+  --base-font-family: sans-serif
+}
