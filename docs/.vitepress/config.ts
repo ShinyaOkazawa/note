@@ -12,4 +12,5 @@ export default defineConfig({
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/note/icon.png'}],
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ザワメモ'}]
   ],
+  appearance: 'dark'
 })

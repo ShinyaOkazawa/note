@@ -1,3 +1,12 @@
 html {
     font-family: var(--base-font-family);
 }
+
+body {
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+a {
+    color: var(--color-link);
+}
