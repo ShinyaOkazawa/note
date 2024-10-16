@@ -25,6 +25,5 @@ defineProps<{
   display: flex;
   justify-content: space-between;
   height: 40px;
-  border-bottom: 1px solid var(--border-color);
 }
 </style>
