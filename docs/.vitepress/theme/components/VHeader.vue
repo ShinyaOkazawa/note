@@ -2,19 +2,22 @@
 defineProps<{
   isDark: boolean
 }>();
+defineEmits<{
+  switch: []
+}>()
 </script>
 
 <template>
   <header class="header">
-    <a href="/note/index.html">
-      <img src="../assets/images/icon.svg" alt="" width="40" height="40">
+    <a href="/note/index.html" class="logo">
+      H
     </a>
-    <button @click="$emit('switch')">
+    <button class="switch-button" @click="$emit('switch')">
       <template v-if="isDark">
-        B
+        D
       </template>
       <template v-else>
-        W
+        L
       </template>
     </button>
   </header>
@@ -24,6 +27,16 @@ defineProps<{
 .header {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  align-items: center;
+  height: 60px;
+  padding: 0 15px;
+}
+.logo {
+  font-size: 1.5rem;
+}
+.switch-button {
+  font-size: 1.5rem;
+  font-family: var(--base-font-family);
+  text-decoration: underline;
 }
 </style>

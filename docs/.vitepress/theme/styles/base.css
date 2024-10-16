@@ -1,12 +1,17 @@
 html {
-    font-family: var(--base-font-family);
+
 }
 
 body {
     background-color: var(--background-color);
     color: var(--color);
+    font-family: var(--base-font-family);
 }
 
 a {
     color: var(--color-link);
+}
+
+button {
+    color: var(--color);
 }

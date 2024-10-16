@@ -260,14 +260,13 @@
   * My variables
   * -------------------------------------------------------------------------- */
 :root {
-  --base-font-family: sans-serif;
-  --border-color: #222;
+  --base-font-family: "Roboto", sans-serif;
   --background-color: #f8f8f8;
   --color: #222;
+  --color-secondary: #7d7979;
   --color-link: #222;
 }
 .dark {
-  --border-color: #f8f8f8;
   --background-color: #222;
   --color: #f8f8f8;
   --color-link: #f8f8f8;

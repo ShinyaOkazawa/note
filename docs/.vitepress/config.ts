@@ -10,7 +10,10 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'noindex'}],
     ['link', { rel: 'icon', href: '/note/icon.png'}],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/note/icon.png'}],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'ザワメモ'}]
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'ザワメモ'}],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com'}],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''}],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap'}],
   ],
   appearance: 'dark'
 })
