@@ -39,5 +39,6 @@ defineEmits<{
   font-size: 24px;
   font-family: var(--font-family-button);
   text-decoration: underline;
+  text-underline-offset: var(--text-underline-offset);
 }
 </style>

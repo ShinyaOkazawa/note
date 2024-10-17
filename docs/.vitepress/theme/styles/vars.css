@@ -260,15 +260,22 @@
   * My variables
   * -------------------------------------------------------------------------- */
 :root {
-  --font-family-base: "Noto Sans JP", sans-serif;
+  --font-family-base: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
   --font-family-button: "Lato", sans-serif;
+  --font-size-base: 16px;
   --background-color: #f8f8f8;
-  --color: #222;
+  --color-primary: #222;
   --color-secondary: #7d7979;
   --color-link: #222;
+  --text-underline-offset: 2px;
 }
 .dark {
   --background-color: #222;
-  --color: #f8f8f8;
+  --color-primary: #f8f8f8;
   --color-link: #f8f8f8;
 }
