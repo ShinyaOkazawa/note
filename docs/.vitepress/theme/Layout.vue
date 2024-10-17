@@ -12,16 +12,22 @@ function onSwitchTheme(){
 </script>
 
 <template>
-  <VHeader :is-dark="isDark" @switch="onSwitchTheme" />
-  <div class="body">
-    <NotFound v-if="page.isNotFound" />
-    <Home v-else-if="frontmatter.layout === 'home'" />
-    <Page v-else />
+  <div class="wrapper">
+    <VHeader :is-dark="isDark" @switch="onSwitchTheme" />
+    <div class="body">
+      <NotFound v-if="page.isNotFound" />
+      <Home v-else-if="frontmatter.layout === 'home'" />
+      <Page v-else />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .body {
-  padding: 30px 15px;
+  padding: 30px 20px;
+}
+.wrapper {
+  max-width: 640px;
+  margin: auto;
 }
 </style>

@@ -29,13 +29,13 @@ defineEmits<{
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .switch-button {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: var(--base-font-family);
   text-decoration: underline;
 }
