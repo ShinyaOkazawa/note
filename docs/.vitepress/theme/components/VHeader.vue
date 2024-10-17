@@ -10,14 +10,14 @@ defineEmits<{
 <template>
   <header class="header">
     <a href="/note/index.html" class="logo">
-      H
+      HOME
     </a>
     <button class="switch-button" @click="$emit('switch')">
       <template v-if="isDark">
-        D
+        DARK
       </template>
       <template v-else>
-        L
+        LIGHT
       </template>
     </button>
   </header>
@@ -32,11 +32,12 @@ defineEmits<{
   padding: 0 20px;
 }
 .logo {
-  font-size: 2rem;
+  font-size: 24px;
+  font-family: var(--font-family-button);
 }
 .switch-button {
-  font-size: 2rem;
-  font-family: var(--base-font-family);
+  font-size: 24px;
+  font-family: var(--font-family-button);
   text-decoration: underline;
 }
 </style>

@@ -13,7 +13,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-title', content: 'ザワメモ'}],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com'}],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''}],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap'}],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Noto+Sans+JP&display=swap'}],
   ],
   appearance: 'dark'
 })

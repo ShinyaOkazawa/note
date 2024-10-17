@@ -260,7 +260,8 @@
   * My variables
   * -------------------------------------------------------------------------- */
 :root {
-  --base-font-family: "Roboto", sans-serif;
+  --font-family-base: "Noto Sans JP", sans-serif;
+  --font-family-button: "Lato", sans-serif;
   --background-color: #f8f8f8;
   --color: #222;
   --color-secondary: #7d7979;

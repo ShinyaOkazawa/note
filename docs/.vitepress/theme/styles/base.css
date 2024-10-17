@@ -1,11 +1,10 @@
 html {
-
+    font-size: 16px;
 }
-
 body {
     background-color: var(--background-color);
     color: var(--color);
-    font-family: var(--base-font-family);
+    font-family: var(--font-family-base);
 }
 
 a {

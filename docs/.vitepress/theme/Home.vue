@@ -28,9 +28,7 @@ function getFormattedDate(dateString: string){
   }
 }
 .date {
-  font-family: var(--base-font-family);
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-family: var(--font-family-base);
   color: var(--color-secondary);
 }
 </style>
